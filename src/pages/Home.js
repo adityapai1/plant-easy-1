@@ -18,23 +18,26 @@ function Home() {
                     name="keywords"
                     content="Plant care, gardening tips, indoor plants, plant watering, plant growth, Plant Easy"
                 />
+
+                <link rel="canonical" href="https://planteasy1.netlify.app/" />
+
             </Helmet>
 
             <Header />
             <div className="flex flex-col items-center min-h-screen bg-green-100">
                 <div className="h-1/3 p-12">
-                    <img 
-                        src={PlantIllustration} 
-                        alt="Potted Plant Illustration" 
+                    <img
+                        src={PlantIllustration}
+                        alt="Potted Plant Illustration"
                         className="w-80 h-auto"
                     />
                 </div>
                 <div className="text-center px-4 h-2/3 w-2/3">
                     <h2 className="text-4xl mb-4 font-cedarville">Plant Easy</h2>
                     <p className="text-lg text-justify">
-                        Discover the joy of nurturing plants with our comprehensive guide to plant care. 
-                        Whether you're a seasoned gardener or just starting out, Plant Easy offers detailed 
-                        information on a wide variety of plants, expert tips, and a supportive community to 
+                        Discover the joy of nurturing plants with our comprehensive guide to plant care.
+                        Whether you're a seasoned gardener or just starting out, Plant Easy offers detailed
+                        information on a wide variety of plants, expert tips, and a supportive community to
                         help you grow your green thumb. Explore PlantEasy and nourish your plants!
                     </p>
                 </div>

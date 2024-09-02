@@ -15,6 +15,8 @@ function Qna() {
           name="keywords"
           content="plant care Q&A, gardening questions, plant watering tips, indoor plants, outdoor plants, plant care tips, gardening advice"
         />
+
+        <link rel="canonical" href="https://planteasy1.netlify.app/qna" />
       </Helmet>
       <Header />
       <div className="max-w-3xl mx-auto p-6">

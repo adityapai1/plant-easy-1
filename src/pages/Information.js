@@ -54,6 +54,7 @@ function Information() {
           name="keywords"
           content="types of plants, flowering plants, succulents, trees, herbs, ferns, aquatic plants, plant care, plant categories, gardening tips"
         />
+        <link rel="canonical" href="https://planteasy1.netlify.app/info" />
       </Helmet>
       <Header />
       <div className="max-w-7xl mx-auto p-6">
