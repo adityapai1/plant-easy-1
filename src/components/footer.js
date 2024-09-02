@@ -1,21 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 function Footer(){
-
-    const navigate = useNavigate();
-
-    const navigateToHome = () => {
-        navigate("/");
-    };
-
-    const navigateToInfo = () => {
-        navigate("/info");
-    };
-
-    const navigateToQna = () => {
-        navigate("/qna");
-    };
 
     return (
         <>

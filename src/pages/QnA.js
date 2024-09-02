@@ -56,7 +56,7 @@ function Qna() {
         </div>
 
       </div>
-      <Header />
+      <Footer />
     </div>
   );
 }
