@@ -19,7 +19,7 @@ function Header(){
 
     return (
         <>
-            <div className="flex flex-row w-screen h-16 bg-emerald-600 justify-between items-center">
+            <div className="flex flex-row w-screen h-16 justify-between items-center" style = {{backgroundColor:'#0b736c'}} >
                 <div className="flex items-start ml-4">
                     <h1 className="text-2xl text-white font-cedarville">PlantEasy</h1>
                 </div>
