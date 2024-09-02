@@ -1,4 +1,3 @@
-import Footer from "../components/footer";
 import Header from "../components/header";
 import { Helmet } from "react-helmet";
 
@@ -79,7 +78,6 @@ function Information() {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "../components/footer";
 import Header from "../components/header";
 import { Helmet } from "react-helmet";
 
@@ -90,7 +89,6 @@ function Qna() {
           Learn more about <a href="https://www.rhs.org.uk/advice/profile?pid=313" target="_blank" rel="noopener noreferrer">watering schedules</a>, <a href="https://www.almanac.com/content/preparing-soil-planting" target="_blank" rel="noopener noreferrer">soil types</a>, and the best practices to ensure your plants thrive. Discover the best tips for plant care, including <a href="https://www.gardeningknowhow.com/garden-how-to/info/how-to-understand-plants.htm" target="_blank" rel="noopener noreferrer">understanding plant needs</a>, providing adequate sunlight, and <a href="https://www.thespruce.com/how-to-get-rid-of-bugs-on-plants-5080619" target="_blank" rel="noopener noreferrer">protecting them from pests</a>.
         </p>
       </div>
-      <Footer />
     </div>
   );
 }

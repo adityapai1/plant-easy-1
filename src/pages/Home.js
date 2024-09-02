@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "../components/footer";
+
 import Header from "../components/header";
 import PlantIllustration from "../images/potted-plant-doodle-vector-background.png";
 
@@ -53,7 +53,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Footer />
+
         </div>
     );
 }

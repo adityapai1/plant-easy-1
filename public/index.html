@@ -44,34 +44,107 @@
     gtag('config', 'G-LJ9G1SC61R');
   </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "PlantEasy",
-    "url": "https://www.planteasy.com",
-    "description": "PlantEasy is your ultimate guide to plant care, offering expert tips, guides, and tricks for both indoor and outdoor plants.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.planteasy.com/?s={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
-
   <!-- Optimized Title with Keywords -->
   <title>PlantEasy - Expert Plant Care Tips, Guides, and Gardening Tricks</title>
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "PlantEasy",
+      "url": "https://www.planteasy.com",
+      "description": "PlantEasy is your ultimate guide to plant care, offering expert tips, guides, and tricks for both indoor and outdoor plants.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.planteasy.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  <!-- Internal Navigation Links -->
+
+  <style>
+    #footer {
+      background-color: #0b736c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #footer a {
+      color: #e0f2f1;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    #footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* styles.css */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Footer styles */
+    .footer {
+      background-color: #0b736c;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      align-items: center;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 16px;
+      margin-top: 16px;
+    }
+
+    .title {
+      font-size: 2rem;
+      color: white;
+      font-family: 'Cedarville Cursive', cursive;
+      /* Make sure you have this font-family available */
+      padding-top: 16px;
+    }
+  </style>
+
 </head>
 
 <body>
   <noscript>
-
-    <h1> You need to enable JavaScript to run this app.</h1>
-    <h2> PlantEasy - Expert Plant Care Tips, Guides, and Gardening Tricks</h2>
-    <h2> Flowering plants Knowledge</h2>
-
+    <h1>You need to enable JavaScript to run this app.</h1>
+    <h2>PlantEasy - Expert Plant Care Tips, Guides, and Gardening Tricks</h2>
+    <h2>Flowering plants Knowledge</h2>
   </noscript>
   <div id="root"></div>
+
+  <!-- Footer with Internal and External Links -->
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="header">
+            <h1 class="title">PlantEasy</h1><br><br><br>
+        </div>
+        <p class="footer-links">
+            <a href="https://planteasy1.netlify.app/">About Us</a> |
+            <a href="https://plantlane.com/blogs/home-garden-decor" target="_blank" rel="noopener noreferrer">Gardening Resources</a> |
+            <a href="https://www.gardenupstore.in/blogs/journal/neem-for-plants" target="_blank" rel="noopener noreferrer">Plant Care Tips</a>
+        </p>
+    </div>
+</footer>
 </body>
 
 </html>
