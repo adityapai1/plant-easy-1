@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { Helmet } from "react-helmet";
 
 function Information() {
   const plantCategories = [
@@ -13,7 +14,7 @@ function Information() {
     },
     {
       title: "Ferns",
-      description: "Ferns are non-flowering plants with feathery leaves, known as fronds. They reproduce via spores and thrive in shady , moist environments."
+      description: "Ferns are non-flowering plants with feathery leaves, known as fronds. They reproduce via spores and thrive in shady, moist environments."
     },
     {
       title: "Succulents",
@@ -43,6 +44,17 @@ function Information() {
 
   return (
     <div className="font-montserrat bg-green-100 min-h-screen">
+      <Helmet>
+        <title>Types of Plants - Comprehensive Guide to Flowering, Succulents, Trees, and More</title>
+        <meta
+          name="description"
+          content="Explore the diverse world of plants with our comprehensive guide to flowering plants, succulents, trees, herbs, and more. Learn about different plant types and their care needs."
+        />
+        <meta
+          name="keywords"
+          content="types of plants, flowering plants, succulents, trees, herbs, ferns, aquatic plants, plant care, plant categories, gardening tips"
+        />
+      </Helmet>
       <Header />
       <div className="max-w-7xl mx-auto p-6">
         {/* Enhanced H1 Tag with Keywords */}

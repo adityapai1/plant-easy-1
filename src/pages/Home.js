@@ -1,3 +1,5 @@
+import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import PlantIllustration from "../images/potted-plant-doodle-vector-background.png";
@@ -5,6 +7,19 @@ import PlantIllustration from "../images/potted-plant-doodle-vector-background.p
 function Home() {
     return (
         <div className="font-montserrat">
+            {/* Helmet for SEO Optimization */}
+            <Helmet>
+                <title>Plant Easy - Comprehensive Plant Care Guide</title>
+                <meta
+                    name="description"
+                    content="Discover the joy of nurturing plants with Plant Easy. Explore comprehensive guides, expert tips, and community support for all your plant care needs."
+                />
+                <meta
+                    name="keywords"
+                    content="Plant care, gardening tips, indoor plants, plant watering, plant growth, Plant Easy"
+                />
+            </Helmet>
+
             <Header />
             <div className="flex flex-col items-center min-h-screen bg-green-100">
                 <div className="h-1/3 p-12">
@@ -25,19 +40,13 @@ function Home() {
                 </div>
                 <div className="flex md:flex-row flex-col w-4/5 pt-12">
                     <div className="w-1/3 bg-white h-40 mx-4 flex items-center justify-center text-2xl">
-                        <h1>
-                            Grow
-                        </h1>
+                        <h1>Grow</h1>
                     </div>
                     <div className="w-1/3 bg-white h-40 mx-4 flex items-center justify-center text-2xl">
-                        <h1>
-                            Cultivate
-                        </h1>
+                        <h1>Cultivate</h1>
                     </div>
                     <div className="w-1/3 bg-white h-40 mx-4 flex items-center justify-center text-2xl">
-                        <h1>
-                            Flourish
-                        </h1>
+                        <h1>Flourish</h1>
                     </div>
                 </div>
             </div>

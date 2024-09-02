@@ -1,9 +1,21 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { Helmet } from "react-helmet";
 
 function Qna() {
   return (
     <div className="font-montserrat bg-green-100 min-h-screen">
+      <Helmet>
+        <title>Plant Care Q&A - Expert Answers to Your Gardening Questions</title>
+        <meta
+          name="description"
+          content="Get expert answers to your gardening questions with our Plant Care Q&A. Learn about watering, sunlight, soil, and pest control to help your plants thrive."
+        />
+        <meta
+          name="keywords"
+          content="plant care Q&A, gardening questions, plant watering tips, indoor plants, outdoor plants, plant care tips, gardening advice"
+        />
+      </Helmet>
       <Header />
       <div className="max-w-3xl mx-auto p-6">
         {/* Enhanced H1 Tag with Keywords */}
@@ -40,14 +52,14 @@ function Qna() {
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Harsh asks:</h3>
             <p className="text-gray-700">
-              How often should I water my indoor succulent plants?
+              How do I take care of my ferns in a dry environment?
             </p>
           </div>
 
           <div className="border-t border-gray-200 pt-4">
             <h4 className="font-semibold mb-2">Reply from Suhana:</h4>
             <p className="text-gray-700">
-              Succulents generally need to be watered once every 2-3 weeks, depending on the climate and indoor humidity. Make sure the soil is completely dry between waterings to prevent root rot.
+              Ferns need a humid environment to thrive. Mist your ferns regularly or use a humidifier. Also, ensure they are placed in indirect light and water them when the topsoil feels dry.
             </p>
           </div>
         </div>
@@ -56,14 +68,14 @@ function Qna() {
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Gauri asks:</h3>
             <p className="text-gray-700">
-              How often should I water my indoor succulent plants?
+              What type of soil is best for cactus plants?
             </p>
           </div>
 
           <div className="border-t border-gray-200 pt-4">
             <h4 className="font-semibold mb-2">Reply from Arush:</h4>
             <p className="text-gray-700">
-              Succulents generally need to be watered once every 2-3 weeks, depending on the climate and indoor humidity. Make sure the soil is completely dry between waterings to prevent root rot.
+              Cacti prefer well-draining soil, such as a cactus mix or a combination of sand, perlite, and potting soil. This helps prevent root rot by allowing excess water to drain away quickly.
             </p>
           </div>
         </div>
