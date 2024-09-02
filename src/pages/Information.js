@@ -13,7 +13,7 @@ function Information() {
     },
     {
       title: "Ferns",
-      description: "Ferns are non-flowering plants with feathery leaves, known as fronds. They reproduce via spores and thrive in shady, moist environments."
+      description: "Ferns are non-flowering plants with feathery leaves, known as fronds. They reproduce via spores and thrive in shady , moist environments."
     },
     {
       title: "Succulents",
