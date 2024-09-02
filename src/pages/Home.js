@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import PlantIllustration from "../images/potted-plant-doodle-vector-background.png";
 
@@ -22,7 +23,7 @@ function Home() {
                         help you grow your green thumb. Explore PlantEasy and nourish your plants!
                     </p>
                 </div>
-                <div className="flex flex-row w-4/5 pt-12">
+                <div className="flex md:flex-row flex-col w-4/5 pt-12">
                     <div className="w-1/3 bg-white h-40 mx-4 flex items-center justify-center text-2xl">
                         <h1>
                             Grow
@@ -40,6 +41,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

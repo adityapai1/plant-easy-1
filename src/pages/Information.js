@@ -55,6 +55,7 @@ function Information() {
           ))}
         </div>
       </div>
+      <Header />
     </div>
   );
 }
